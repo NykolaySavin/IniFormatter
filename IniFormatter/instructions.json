@@ -1,0 +1,466 @@
+[
+  {
+    "file": "Achievement.ini",
+    "numberOfDigits": [5],
+    "actions": [
+      {
+        "firstSymbolIndexInT": 1,
+        "secondSymbolIndexInT": 2,
+        "firstSymbolIndexInC": 3,
+        "secondSymbolIndexInC": 4
+      },
+      {
+        "firstSymbolIndexInT": 2,
+        "secondSymbolIndexInT": 3,
+        "firstSymbolIndexInC": 16,
+        "secondSymbolIndexInC": 17
+      }
+    ]
+  },
+  {
+    "file": "Activity.ini",
+    "numberOfDigits": [3],
+    "actions": [
+      {
+        "firstSymbolIndexInT": 1,
+        "secondSymbolIndexInT": 2,
+        "firstSymbolIndexInC": 2,
+        "secondSymbolIndexInC": 3
+      },
+      {
+        "firstSymbolIndexInT": 2,
+        "secondSymbolIndexInT": 3,
+        "firstSymbolIndexInC": 6,
+        "secondSymbolIndexInC": 7
+      },
+      {
+        "firstSymbolIndexInT": 3,
+        "secondSymbolIndexInT": 4,
+        "firstSymbolIndexInC": 7,
+        "secondSymbolIndexInC": 8
+      },
+      {
+        "firstSymbolIndexInT": 4,
+        "secondSymbolIndexInT": 5,
+        "firstSymbolIndexInC": 8,
+        "secondSymbolIndexInC": 9
+      }
+    ]
+  },
+  {
+    "file": "Battlefield.ini",
+    "numberOfDigits": [1, 2],
+    "actions": [
+      {
+        "firstSymbolIndexInT": 1,
+        "secondSymbolIndexInT": 2,
+        "firstSymbolIndexInC": 1,
+        "secondSymbolIndexInC": 2
+      }
+    ]
+  },
+  {
+    "file": "BeastsTower.ini",
+    "numberOfDigits": [2],
+    "actions": [
+      {
+        "firstSymbolIndexInT": 1,
+        "secondSymbolIndexInT": 2,
+        "firstSymbolIndexInC": 2,
+        "secondSymbolIndexInC": 3
+      }
+    ]
+  },
+  {
+    "file": "Collection.ini",
+    "numberOfDigits": [6],
+    "actions": [
+      {
+        "firstSymbolIndexInT": 1,
+        "secondSymbolIndexInT": 2,
+        "firstSymbolIndexInC": 7,
+        "secondSymbolIndexInC": 8
+      }
+    ]
+  },
+  {
+    "file": "Dialogue.ini",
+    "numberOfDigits": [4],
+    "actions": [
+      {
+        "firstSymbolIndexInT": 1,
+        "secondSymbolIndexInT": 2,
+        "firstSymbolIndexInC": 1,
+        "secondSymbolIndexInC": 2
+      }
+    ]
+  },
+  {
+    "file": "DynamicEvent.ini",
+    "numberOfDigits": [3],
+    "actions": [
+      {
+        "firstSymbolIndexInT": 1,
+        "secondSymbolIndexInT": 2,
+        "firstSymbolIndexInC": 1,
+        "secondSymbolIndexInC": 2
+      }
+    ]
+  },
+  {
+    "file": "Elf.ini",
+    "numberOfDigits": [2, 3],
+    "actions": [
+      {
+        "firstSymbolIndexInT": 2,
+        "secondSymbolIndexInT": 3,
+        "firstSymbolIndexInC": 5,
+        "secondSymbolIndexInC": 6
+      }
+    ]
+  },
+  {
+    "file": "ElfCollect.ini",
+    "numberOfDigits": [1, 2, 3],
+    "actions": [
+      {
+        "firstSymbolIndexInT": 1,
+        "secondSymbolIndexInT": 2,
+        "firstSymbolIndexInC": 38,
+        "secondSymbolIndexInC": 39
+      },
+      {
+        "firstSymbolIndexInT": 2,
+        "secondSymbolIndexInT": 3,
+        "firstSymbolIndexInC": 39,
+        "secondSymbolIndexInC": 40
+      }
+    ]
+  },
+  {
+    "file": "ElfKing.ini",
+    "numberOfDigits": [1, 2],
+    "actions": [
+      {
+        "firstSymbolIndexInT": 1,
+        "secondSymbolIndexInT": 2,
+        "firstSymbolIndexInC": 1,
+        "secondSymbolIndexInC": 2
+      },
+      {
+        "firstSymbolIndexInT": 2,
+        "secondSymbolIndexInT": 3,
+        "firstSymbolIndexInC": 15,
+        "secondSymbolIndexInC": 16
+      }
+    ]
+  },
+  {
+    "file": "ElfTeamFight.ini",
+    "numberOfDigits": [5],
+    "actions": [
+      {
+        "firstSymbolIndexInT": 1,
+        "secondSymbolIndexInT": 2,
+        "firstSymbolIndexInC": 3,
+        "secondSymbolIndexInC": 4
+      }
+    ]
+  },
+  {
+    "file": "ElfTrain.ini",
+    "numberOfDigits": [3],
+    "actions": [
+      {
+        "firstSymbolIndexInT": 1,
+        "secondSymbolIndexInT": 2,
+        "firstSymbolIndexInC": 28,
+        "secondSymbolIndexInC": 29
+      },
+      {
+        "firstSymbolIndexInT": 2,
+        "secondSymbolIndexInT": 3,
+        "firstSymbolIndexInC": 29,
+        "secondSymbolIndexInC": 30
+      }
+    ]
+  },
+  {
+    "file": "Enchant.ini",
+    "numberOfDigits": [5],
+    "actions": [
+      {
+        "firstSymbolIndexInT": 1,
+        "secondSymbolIndexInT": 2,
+        "firstSymbolIndexInC": 5,
+        "secondSymbolIndexInC": 6
+      },
+      {
+        "firstSymbolIndexInT": 2,
+        "secondSymbolIndexInT": 3,
+        "firstSymbolIndexInC": 56,
+        "secondSymbolIndexInC": 57
+      }
+    ]
+  },
+  {
+    "file": "EquipSet.ini",
+    "numberOfDigits": [3],
+    "actions": [
+      {
+        "firstSymbolIndexInT": 1,
+        "secondSymbolIndexInT": 2,
+        "firstSymbolIndexInC": 1,
+        "secondSymbolIndexInC": 2
+      }
+    ]
+  },
+  {
+    "file": "FamilyTree.ini",
+    "numberOfDigits": [1, 2, 3],
+    "actions": [
+      {
+        "firstSymbolIndexInT": 1,
+        "secondSymbolIndexInT": 2,
+        "firstSymbolIndexInC": 5,
+        "secondSymbolIndexInC": 6
+      }
+    ]
+  },
+  {
+    "file": "Item.ini",
+    "numberOfDigits": [5],
+    "actions": [
+      {
+        "firstSymbolIndexInT": 1,
+        "secondSymbolIndexInT": 2,
+        "firstSymbolIndexInC": 9,
+        "secondSymbolIndexInC": 10
+      },
+      {
+        "firstSymbolIndexInT": 2,
+        "secondSymbolIndexInT": 3,
+        "firstSymbolIndexInC": 92,
+        "secondSymbolIndexInC": 93
+      }
+    ]
+  },
+  {
+    "file": "ItemCombo.ini",
+    "numberOfDigits": [4],
+    "actions": [
+      {
+        "firstSymbolIndexInT": 1,
+        "secondSymbolIndexInT": 2,
+        "firstSymbolIndexInC": 2,
+        "secondSymbolIndexInC": 3
+      }
+    ]
+  },
+  {
+    "file": "ItemMall.ini",
+    "numberOfDigits": [5],
+    "actions": [
+      {
+        "firstSymbolIndexInT": 1,
+        "secondSymbolIndexInT": 2,
+        "firstSymbolIndexInC": 9,
+        "secondSymbolIndexInC": 10
+      },
+      {
+        "firstSymbolIndexInT": 2,
+        "secondSymbolIndexInT": 3,
+        "firstSymbolIndexInC": 92,
+        "secondSymbolIndexInC": 93
+      }
+    ]
+  },
+  {
+    "file": "MentorshipInstance.ini",
+    "numberOfDigits": [1],
+    "actions": [
+      {
+        "firstSymbolIndexInT": 1,
+        "secondSymbolIndexInT": 2,
+        "firstSymbolIndexInC": 4,
+        "secondSymbolIndexInC": 5
+      },
+      {
+        "firstSymbolIndexInT": 2,
+        "secondSymbolIndexInT": 3,
+        "firstSymbolIndexInC": 7,
+        "secondSymbolIndexInC": 8
+      }
+    ]
+  },
+  {
+    "file": "Misson.ini",
+    "numberOfDigits": [4],
+    "actions": [
+      {
+        "firstSymbolIndexInT": 1,
+        "secondSymbolIndexInT": 2,
+        "firstSymbolIndexInC": 1,
+        "secondSymbolIndexInC": 2
+      },
+      {
+        "firstSymbolIndexInT": 2,
+        "secondSymbolIndexInT": 3,
+        "firstSymbolIndexInC": 7,
+        "secondSymbolIndexInC": 8
+      }
+    ]
+  },
+  {
+    "file": "Monster.ini",
+    "numberOfDigits": [5],
+    "actions": [
+      {
+        "firstSymbolIndexInT": 1,
+        "secondSymbolIndexInT": 2,
+        "firstSymbolIndexInC": 2,
+        "secondSymbolIndexInC": 3
+      }
+    ]
+  },
+  {
+    "file": "Node.ini",
+    "numberOfDigits": [1, 2, 3],
+    "actions": [
+      {
+        "firstSymbolIndexInT": 1,
+        "secondSymbolIndexInT": 2,
+        "firstSymbolIndexInC": 1,
+        "secondSymbolIndexInC": 2
+      }
+    ]
+  },
+  {
+    "file": "Npc.ini",
+    "numberOfDigits": [5],
+    "actions": [
+      {
+        "firstSymbolIndexInT": 1,
+        "secondSymbolIndexInT": 2,
+        "firstSymbolIndexInC": 1,
+        "secondSymbolIndexInC": 2
+      }
+    ]
+  },
+  {
+    "file": "PointAbility.ini",
+    "numberOfDigits": [3],
+    "actions": [
+      {
+        "firstSymbolIndexInT": 1,
+        "secondSymbolIndexInT": 2,
+        "firstSymbolIndexInC": 1,
+        "secondSymbolIndexInC": 2
+      }
+    ]
+  },
+  {
+    "file": "Race.ini",
+    "numberOfDigits": [1, 2],
+    "actions": [
+      {
+        "firstSymbolIndexInT": 1,
+        "secondSymbolIndexInT": 2,
+        "firstSymbolIndexInC": 1,
+        "secondSymbolIndexInC": 2
+      }
+    ]
+  },
+  {
+    "file": "RaceGroup.ini",
+    "numberOfDigits": [3],
+    "actions": [
+      {
+        "firstSymbolIndexInT": 1,
+        "secondSymbolIndexInT": 2,
+        "firstSymbolIndexInC": 1,
+        "secondSymbolIndexInC": 2
+      }
+    ]
+  },
+
+  {
+    "file": "RecommendedEvents.ini",
+    "numberOfDigits": [3],
+    "actions": [
+      {
+        "firstSymbolIndexInT": 1,
+        "secondSymbolIndexInT": 2,
+        "firstSymbolIndexInC": 7,
+        "secondSymbolIndexInC": 8
+      },
+      {
+        "firstSymbolIndexInT": 2,
+        "secondSymbolIndexInT": 3,
+        "firstSymbolIndexInC": 8,
+        "secondSymbolIndexInC": 9
+      },
+      {
+        "firstSymbolIndexInT": 3,
+        "secondSymbolIndexInT": 4,
+        "firstSymbolIndexInC": 9,
+        "secondSymbolIndexInC": 10
+      }
+    ]
+  },
+  {
+    "file": "RideCombo.ini",
+    "numberOfDigits": [1, 2, 3, 5],
+    "actions": [
+      {
+        "firstSymbolIndexInT": 1,
+        "secondSymbolIndexInT": 2,
+        "firstSymbolIndexInC": 1,
+        "secondSymbolIndexInC": 2
+      }
+    ]
+  },
+  {
+    "file": "Spell.ini",
+    "numberOfDigits": [5],
+    "actions": [
+      {
+        "firstSymbolIndexInT": 1,
+        "secondSymbolIndexInT": 2,
+        "firstSymbolIndexInC": 11,
+        "secondSymbolIndexInC": 12
+      },
+      {
+        "firstSymbolIndexInT": 2,
+        "secondSymbolIndexInT": 3,
+        "firstSymbolIndexInC": 59,
+        "secondSymbolIndexInC": 60
+      }
+    ]
+  },
+  {
+    "file": "TextIndex.ini",
+    "numberOfDigits": [5],
+    "actions": [
+      {
+        "firstSymbolIndexInT": 1,
+        "secondSymbolIndexInT": 2,
+        "firstSymbolIndexInC": 2,
+        "secondSymbolIndexInC": 3
+      }
+    ]
+  },
+
+  {
+    "file": "VIP.ini",
+    "numberOfDigits": [1],
+    "actions": [
+      {
+        "firstSymbolIndexInT": 1,
+        "secondSymbolIndexInT": 2,
+        "firstSymbolIndexInC": 1,
+        "secondSymbolIndexInC": 2
+      }
+    ]
+  }
+]

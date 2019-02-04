@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IniFormatter", "IniFormatter\IniFormatter.csproj", "{54566649-02CC-4EF4-BFA0-798E80DEAA54}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54566649-02CC-4EF4-BFA0-798E80DEAA54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54566649-02CC-4EF4-BFA0-798E80DEAA54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54566649-02CC-4EF4-BFA0-798E80DEAA54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54566649-02CC-4EF4-BFA0-798E80DEAA54}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C341F32D-48F5-4976-9522-6F13464907ED}
+	EndGlobalSection
+EndGlobal
