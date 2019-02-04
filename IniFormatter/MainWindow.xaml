@@ -5,8 +5,32 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:IniFormatter"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="IniFormatter" Height="300" Width="800" MinHeight="300" MinWidth="800">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.35*"></ColumnDefinition>
+            <ColumnDefinition Width="0.15*"></ColumnDefinition>
+            <ColumnDefinition Width="0.8*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="textBoxInstruction" Grid.Column="2" Margin="20,0" Height="25" IsReadOnly="True"></TextBox>
+        <TextBox x:Name="textBoxT" Grid.Column="2" Grid.Row="1"  Margin="20,0" Height="25" IsReadOnly="True"></TextBox>
+        <TextBox x:Name="textBoxC" Grid.Column="2"  Grid.Row="2"  Margin="20,0" Height="25" IsReadOnly="True"></TextBox>
+        <TextBox x:Name="textBoxResult" Grid.Column="2"  Grid.Row="3"  Margin="20,0" Height="25" IsReadOnly="True"></TextBox>
+        <TextBlock  Margin="10,0,0,0" VerticalAlignment="Center" FontSize="16">Choose instruction file:</TextBlock>
+        <TextBlock Margin="10,0,0,0" VerticalAlignment="Center" FontSize="16" Grid.Row="1">Choose T directory:</TextBlock>
+        <TextBlock Margin="10,0,0,0" VerticalAlignment="Center" FontSize="16" Grid.Row="2">Choose C directory:</TextBlock>
+        <TextBlock Margin="10,0,0,0" VerticalAlignment="Center" FontSize="16" Grid.Row="3">Choose Result directory:</TextBlock>
+        <Button Click="btnInstruction_Click" x:Name="btnInstruction" Grid.Column="1" Width="60" Height="30" Content="Choose"></Button>
+        <Button Click="btnDirectoryT_Click" x:Name="btnTDirectory" Grid.Column="1" Width="60" Height="30" Grid.Row="1"  Content="Choose"></Button>
+        <Button Click="btnCDirectory_Click" x:Name="btnCDirectory" Grid.Column="1" Width="60" Height="30" Grid.Row="2"  Content="Choose"></Button>
+        <Button Click="btnResultDirectory_Click" x:Name="btnResultDirectory" Grid.Column="1" Width="60" Height="30" Grid.Row="3"  Content="Choose"></Button>
+        <Button Click="btnStart_Click" x:Name="btnStart" Grid.ColumnSpan="2" Width="60" Height="30" Grid.Row="4"  Content="Start"></Button>
     </Grid>
 </Window>

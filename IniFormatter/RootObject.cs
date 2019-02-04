@@ -20,4 +20,19 @@ namespace IniFormatter
         public List<int> numberOfDigits { get; set; }
         public List<Action> actions { get; set; }
     }
+    public class Block
+    {
+        public StringBuilder block { get; set; }
+        public int id { get; set; }
+        public Block(int id, string block)
+        {
+            this.block = new StringBuilder();
+            this.block.Append(block);
+            this.id = id;
+        }
+        public override string ToString()
+        {
+            return block.ToString();
+        }
+    }
 }
