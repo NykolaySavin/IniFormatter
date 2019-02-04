@@ -83,8 +83,9 @@ namespace IniFormatter
                 {
                     string tContent = readFile(directoryTPath + "\\T_" + item.file);
                     string cContent = readFile(directoryCPath + "\\C_" + item.file);
-                    string resultContent = getResult(item.numberOfDigits, tContent, cContent, item.actions);
-                    File.WriteAllText(directoryResultPath + "\\" + item.file, resultContent, Encoding.GetEncoding("big5"));
+                    Result r = getResult(item.numberOfDigits, tContent, cContent, item.actions);
+                    File.WriteAllText(directoryResultPath + "\\" + item.file, r.result, Encoding.GetEncoding("big5"));
+                    File.WriteAllText(directoryResultPath + "\\unTranslated_" + item.file, r.newFile, Encoding.GetEncoding("big5"));
                 }
                
             }
@@ -115,7 +116,7 @@ namespace IniFormatter
             }
             return blocks;
         }
-        private string getResult(List<int> numberOfDigitsInId,string tContent, string cContent,List<Action> actions)
+        private Result getResult(List<int> numberOfDigitsInId,string tContent, string cContent,List<Action> actions)
         {
             StringBuilder sb = new StringBuilder();
             List<string> c = Regex.Split(cContent, Environment.NewLine).ToList();
@@ -146,7 +147,20 @@ namespace IniFormatter
                 }
                 sb.AppendLine(builder.ToString());
             }
-            return sb.ToString();
+            List<Block> unusedBlocks = cBlocks.Where(ci => tBlocks.Find(t => t.id == ci.id) == null).ToList();
+            StringBuilder un = new StringBuilder();
+            foreach (var cBlock in unusedBlocks)
+            {
+
+                un.AppendLine(cBlock.block.ToString()); ;
+            }
+            
+            return new Result() {result=sb.ToString(),newFile=un.ToString() };
+        }
+        class Result
+        {
+            public string result { get; set; }
+            public string newFile { get; set; }
         }
         private string readFile(string filename)
         {
