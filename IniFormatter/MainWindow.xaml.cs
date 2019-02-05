@@ -96,7 +96,7 @@ namespace IniFormatter
             foreach (var item in splitString)
             {
                 int id = 0;
-                if ((from i in numberOfDigitsInId select Int32.TryParse(item.Length >= i ? item.Substring(0, i) : item, out id)).Any(x => x == true))
+                if ((from i in numberOfDigitsInId select (Int32.TryParse(item.Length >= i ? item.Substring(0, i) : item, out id) && item[i]=='|')).Any(x => x == true))
                 {
                     blocks.Add(new Block(id, item));
                 }
